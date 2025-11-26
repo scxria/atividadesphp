@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-
+//código de José Paulo Costa de Oliveira
 $nome = "José Paulo";
 echo"<h1/> Olá," . $nome ."! Bem-vindo &#128512; </h1>";
 
@@ -23,7 +23,7 @@ $fahrenheit = ($celsius * 9/5) + 32;
 echo "$celsius \u{00b0}C equivalem a $fahrenheit \u{00b0}F!";
 
 
-
+//código de Caio Cabral Barreto
 ?>
     <h1> Empréstimo Bancário </h1>
     <?php
