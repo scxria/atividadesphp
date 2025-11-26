@@ -6,6 +6,25 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
+
+$nome = "José Paulo";
+echo"<h1/> Olá," . $nome ."! Bem-vindo &#128512; </h1>";
+
+echo "<br> <br>";
+
+echo "<h2/> conversão de graus para farenheit &#x1F321;&#xFE0F; </h2>";
+
+echo "<br> <br>";
+
+$celsius = 10;
+$fahrenheit = ($celsius * 9/5) + 32; 
+
+echo "$celsius \u{00b0}C equivalem a $fahrenheit \u{00b0}F!";
+
+
+
+?>
     <h1> Empréstimo Bancário </h1>
     <?php
 
