@@ -7,8 +7,44 @@
 </head>
 <body>
 
+<h1> Tabuada </h1>
+<?php
+$numero = 8;
 
-<!-- Código do Caio -->
+for ($i = 1; $i <= 10; $i++) {
+    echo "$numero x $i = " . ($numero * $i) . "\n";
+}
+?>
+
+<h1> Números inteiros </h1>
+<?php
+$numeros = [8, 15, 22, 5, 10, 30, 7, 12, 9, 20];
+$soma = 0;
+
+echo "Os números escolhidos foram: ";
+
+for ($i = 0; $i < 10; $i++) {
+    echo $numeros[$i] . " "; 
+    $soma += $numeros[$i];
+}
+
+$media = $soma / 10;
+
+echo "\n\nA média é: $media";
+?>
+
+<h1> Listas de peças </h1>
+<?php
+$pecas = [
+    "Motor", "Pneu", "Freio", "Volante", "Câmbio", 
+    "Radiador", "Bateria", "Farol", "Escapamento", "Vela"
+];
+
+foreach ($pecas as $peca) {
+    echo $peca . "\n";
+}
+?>
+
 <h1> Arrays </h1>
     <?php
 $gato = [
